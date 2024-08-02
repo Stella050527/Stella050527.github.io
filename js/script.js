@@ -118,3 +118,6 @@ function handleLazyBG () {
     })
   }
 }
+function getScrollTop () {
+  return window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+}//返回当前滚动条距离顶部高度
