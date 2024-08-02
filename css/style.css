@@ -380,7 +380,7 @@ html.show-mobile-nav .navbar-list {
   animation: showMobileNav 0.4s ease-out forwards;
 }
 .navbar {
-  position: relative;
+  position: fixed;
   z-index: 2;
 }
 .navbar-content {
